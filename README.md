@@ -2,9 +2,9 @@
 pip install virtualenv  
 pip install virtualenvwrapper
 
-Edit in '~/.bashrc':   
+Edit in ~/.bashrc:   
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3  
-export WORKON_HOME='~/.virtualenvs'  
+export WORKON_HOME="~/.virtualenvs" 
 source ~/.local/bin/virtualenvwrapper.sh
 
 source ~/.bashrc  
